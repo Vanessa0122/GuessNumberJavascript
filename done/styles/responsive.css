@@ -1,0 +1,25 @@
+@media only screen and (max-width: 880px) {
+  .container {
+    width: 95%;
+  }
+
+  .card {
+    width: auto;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .container .top-row {
+    flex-direction: column;
+  }
+
+  .container .top-row label {
+    margin: 0 auto 20px auto;
+    width: 100%;
+  }
+
+  .container .top-row input[type="submit"] {
+    margin: 0 auto;
+  }
+}
